@@ -3,8 +3,16 @@
 # WindKitty-RAT
 Advanced RAT in python, and easily configureable, what more can you wish 😉..
 <p align='center'><img src="https://media.discordapp.net/attachments/959100497904693330/1193615198137876560/windkittyrat.png?ex=65ad5bc7&is=659ae6c7&hm=34ab0717275a9d23bbc8d3e89ffe61704b4028902f21b87369bbe946dd5e829c&=&format=webp&quality=lossless" width=500 /></p>
-</span>
+<p align='center'><img src="https://raw.githubusercontent.com/EvilBytecode/WindKitty-Rat/main/img/windkittyterminal.png" width=500 /></p>
 
+</span>
+<p align=center>  
+<a href=https://github.com/Evilbytecode><img src="https://img.shields.io/badge/Author-Evilbytecode-red.svg?style=for-the-badge&label=Author" /></a>
+
+<img src="https://img.shields.io/badge/Version-1.0-brightgreen?style=for-the-badge" >
+<img src="https://img.shields.io/github/stars/Evilbytecode/WindKitty-Rat?style=for-the-badge">  
+<img src="https://img.shields.io/github/followers/Evilbytecode?label=Followers&style=for-the-badge">
+</p>   
 
 > [!NOTE]  
 > If you have webcam, or some good obfuscator, open a issue and implement it, thanks.
@@ -20,14 +28,14 @@ Advanced RAT in python, and easily configureable, what more can you wish 😉..
 - History (Multiple Browsers Support)
 - Cookies (Multiple Browsers Support)
 - Clipboard Stealer
+- Basic Antidebug ( CheckRemoteDebuggerPresent and IsDebuggerPresent API using ctypes )
 
 
 
 ## Setup: 
-
-- [Watch This video to know how to get your discord bot token and server id](https://github.com/EvilBytecode/WindKitty-Rat/blob/main/img/Tutorial.gif)
 - Start `installer.bat`
-- Thats all.
+- Watch This video to know how to get your discord bot token and server id (BELOW)
+<img width="250" height="250" src="https://github.com/EvilBytecode/WindKitty-Rat/blob/main/img/Tutorial.gif?raw=true">
 
 
 ---
@@ -81,8 +89,8 @@ What will be added in feature?:
 <p align="center"><strong><i>⚪🟢🔵🔴🟣⚫</i></strong</p>
 
 <br><br>
-* Time: 🔴 ( coded this in a 3 days no break, like for shower and hygiene ofc but was worth it 😆)
-* Complexity: 🟢
+* Time: 🔴 ( coded this in a 3 days with 2 Hours Break each day 😆)
+* Complexity: 🔵
 * Service: 🔴
 <br><br>
 
