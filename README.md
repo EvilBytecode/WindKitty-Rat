@@ -25,9 +25,9 @@ Advanced RAT in python, and easily configureable, what more can you wish 😉..
 
 ## Setup: 
 
-- Watch This video to know how to get your discord bot token and server id : 
-
+- [Watch This video to know how to get your discord bot token and server id](https://github.com/EvilBytecode/WindKitty-Rat/blob/main/img/Tutorial.gif)
 - Start `installer.bat`
+- Thats all.
 
 
 ---
