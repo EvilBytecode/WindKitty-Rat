@@ -69,6 +69,9 @@ Advanced RAT in python, and easily configureable, what more can you wish 😉..
 
 ---
 
+## How to evade AntiVirus and pump file?
+- https://github.com/machine1337/pycrypt
+- https://github.com/CookiesKush/File-Pumper
 ### ToDo
 
 What will be added in feature?:
