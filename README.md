@@ -73,6 +73,10 @@ What will be added in feature?:
 # Disclaimer
 > Information and code provided on this repository are for educational purposes only. The creator is no way responsible for any direct or indirect damage caused due to the misusage of the information. Everything you do, you are doing at your own risk and responsibility
 
+# Credits
+> Smug for browser stealing and discord (i was lazy)
+> KDot 227 cuz he gave me the idea to get it from smug 🤣
+
 <p align="center"><strong><i>This section shows the "levels" of this project, from 0/5 ⚪ to 5/5 ⚫!</i></strong</p>
 <p align="center"><strong><i>⚪🟢🔵🔴🟣⚫</i></strong</p>
 
