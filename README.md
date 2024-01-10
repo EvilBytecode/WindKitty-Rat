@@ -50,12 +50,14 @@ Advanced RAT in python, and easily configureable, what more can you wish 😉..
 - **wifi**: All Info about WLAN. Example: `.wifi <your key>`
 - **telegram**: Telegram Session Files. Example: `.telegram <your key>`
 - **blackscreen**: Blinds Users Screen for temporary time: `.blackscreen <your key>`
+- **turnoffmonitor**: turns off victims monitor: `.turnoffmonitor <your key>`
+- **turnonmonitor**: turns on victims monitor: `.turnonmonitor <your key>`
+- **PC Scrape**: Scrapes info on users computer such as(firewall config, local network, currentuser): `.pcscrape <your key>`
 
-### Troll Commands (NOT ADDED):
+### Troll Commands :
 
-- .goofsounds `<your_key>`
-- .jumpscare `<your_key>`
-- .sus `<your_key>`
+- .goofsounds `.goofsounds <your_key>`
+- .sus `.sus <your_key>`
 
 ---
 
@@ -70,3 +72,13 @@ What will be added in feature?:
 
 # Disclaimer
 > Information and code provided on this repository are for educational purposes only. The creator is no way responsible for any direct or indirect damage caused due to the misusage of the information. Everything you do, you are doing at your own risk and responsibility
+
+<p align="center"><strong><i>This section shows the "levels" of this project, from 0/5 ⚪ to 5/5 ⚫!</i></strong</p>
+<p align="center"><strong><i>⚪🟢🔵🔴🟣⚫</i></strong</p>
+
+<br><br>
+* Time: 🔴 ( coded this in a 3 days no break, like for shower and hygiene ofc but was worth it 😆)
+* Complexity: 🟢
+* Service: 🔴
+<br><br>
+
