@@ -76,7 +76,7 @@ Advanced RAT in python, and easily configureable, what more can you wish 😉..
 
 What will be added in feature?:
 
-- [ ] Connection Protection, if discord bot is disabled it will sent info to telegram.
+- [ ] Connection Protection, if discord bot is disabled it will sent info to telegram. (WIP + Optional Choice + Started on 13/01/2024 12:36.. Ill see how it goes :} using tele client module)
 - [ ] Optional XMR Crypto Mining
 - [ ] Tunnel Effect
 - [ ] Obfuscation
